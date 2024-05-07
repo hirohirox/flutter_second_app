@@ -34,7 +34,7 @@ class CalcButton extends StatefulWidget {
 }
 
 class CalcButtonState extends State<CalcButton> {
-  double? _currentValue = 3;
+  double? _currentValue = 0;
   @override
   Widget build(BuildContext context) {
     var calc = SimpleCalculator(
